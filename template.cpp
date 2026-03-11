@@ -28,6 +28,19 @@ using vi = vector<ll>;
 #define fi first
 #define se second
 #define sz(a) (a).size()
+#define all(a) (a).begin(), (a).end()
+#define pb push_back
+#define eb emplace_back
+#define mp make_pair
+#define mt make_tuple
+#define gcd(a, b) __gcd(a, b)
+#define lcm(a, b) (a / gcd(a, b)) * b
+#define rep(i, n) for (int i = 0; i < (n); i++)
+#define repk(i, n, k) for (int i = 1; i <= (n); i += (k))
+#define rrep(i, n) for (int i = (n)-1; i >= 0; i--)
+#define rrepk(i, n, k) for (int i = (n); i >= 1; i -= (k))
+#define fore(i, a, b) for (int i = (a); i < (b); i++)
+#define forek(i, a, b, k) for (int i = (a); i <= (b); i += (k))
 
 // const ll INF  = 1e18;
 const ll INF = 1e18;
