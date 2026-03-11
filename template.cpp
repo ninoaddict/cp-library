@@ -41,6 +41,7 @@ using vi = vector<ll>;
 #define rrepk(i, n, k) for (int i = (n); i >= 1; i -= (k))
 #define fore(i, a, b) for (int i = (a); i < (b); i++)
 #define forek(i, a, b, k) for (int i = (a); i <= (b); i += (k))
+#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 
 // const ll INF  = 1e18;
 const ll INF = 1e18;
